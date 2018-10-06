@@ -1,3 +1,5 @@
+
+[Naive Bayes rökstuðningur](https://www.quora.com/Why-does-Naive-Bayes-classifier-works-so-well-with-text-data)
 [GOOD SHIT LINKUR!](https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f)
 
 [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf):
