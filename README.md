@@ -1,3 +1,5 @@
+
+[Naive Bayes rökstuðningur](https://www.quora.com/Why-does-Naive-Bayes-classifier-works-so-well-with-text-data)
 [GOOD SHIT LINKUR!](https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f)
 
 [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf):
@@ -20,7 +22,7 @@ state of the art on 4 out of 7 tasks, which
 include sentiment analysis and question
 classification.*
 
-[Machine Learning in Automated Text Categorization](http://delivery.acm.org/10.1145/510000/505283/p1-sebastiani.pdf?ip=130.208.240.8&id=505283&acc=ACTIVE%20SERVICE&key=2F5186C3D8457522%2E5BB55B46228E0BA5%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1538698507_e7f792fc12396aa9d5e72da2b7bb627f):
+[Machine Learning in Automated Text Categorization](http://nmis.isti.cnr.it/sebastiani/Publications/ACMCS02.pdf):
 
 *The automated categorization (or classification) of texts into predefined categories has
 witnessed a booming interest in the last 10 years, due to the increased availability of
