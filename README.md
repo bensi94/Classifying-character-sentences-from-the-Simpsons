@@ -1,69 +1,35 @@
+# Classifying character sentences from the Simpsons
+**Authors: Benedikt Óskarsson and Steinar Þorláksson**  
+*Project in course Introduction to Machine Learning (T-504-ITML)*
 
-[Naive Bayes rökstuðningur](https://www.quora.com/Why-does-Naive-Bayes-classifier-works-so-well-with-text-data)
-[GOOD SHIT LINKUR!](https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f)
+![Simpsons family](https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/10/02/21/pg-28-simpsons.jpg?w968h681)
 
-[Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf):
 
-*We report on a series of experiments with
-convolutional neural networks (CNN)
-trained on top of pre-trained word vectors
-for sentence-level classification tasks.
-We show that a simple CNN with little
-hyperparameter tuning and static vectors
-achieves excellent results on multiple
-benchmarks. Learning task-specific
-vectors through fine-tuning offers further
-gains in performance. We additionally
-propose a simple modification to the architecture
-to allow for the use of both
-task-specific and static vectors. The CNN
-models discussed herein improve upon the
-state of the art on 4 out of 7 tasks, which
-include sentiment analysis and question
-classification.*
+## About the project 
 
-[Machine Learning in Automated Text Categorization](http://nmis.isti.cnr.it/sebastiani/Publications/ACMCS02.pdf):
+The goal of the project was to apply theoretic knowledge about supervised
+learning algorithms and the workflow of solving a supervised learning problem
+in practice. Using a realistic dataset and design a process of preprocessing the data,
+selecting a model and its hyperparameters and impliment a program that automates the process.
 
-*The automated categorization (or classification) of texts into predefined categories has
-witnessed a booming interest in the last 10 years, due to the increased availability of
-documents in digital form and the ensuing need to organize them. In the research
-community the dominant approach to this problem is based on machine learning
-techniques: a general inductive process automatically builds a classifier by learning,
-from a set of preclassified documents, the characteristics of the categories. The
-advantages of this approach over the knowledge engineering approach (consisting in
-the manual definition of a classifier by domain experts) are a very good effectiveness,
-considerable savings in terms of expert labor power, and straightforward portability to
-different domains. This survey discusses the main approaches to text categorization
-that fall within the machine learning paradigm. We will discuss in detail issues
-pertaining to three different problems, namely, document representation, classifier
-construction, and classifier evaluation.*
+## The Dataset
 
-[Support Vector Machine Active Learning
-with Applications to Text Classification](http://www.jmlr.org/papers/volume2/tong01a/tong01a.pdf):
+The dataset is called *The Simpsons by the Data* and contains in four csv files list of all Simponsons episodes, Characters, Locations and most importantly a file that contains all spoken text during each episode (including details about which character said it and where). 
+  
+ The Dataset is from William Cukierski at [Kaggle.com](https://www.kaggle.com/wcukierski) and is available [here](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data)
+ 
+Datafiles:
+  * [simpsons_characters.csv](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/simpsons_characters.csv)
+  * [simpsons_episodes.csv](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/simpsons_episodes.csv)
+  * [simpsons_locations.csv](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/simpsons_locations.csv)
+  * [simpsons_script_lines.csv](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/simpsons_script_lines.csv)
+ 
+### Code files
 
-*Support vector machines have met with significant success in numerous real-world learning
-tasks. However, like most machine learning algorithms, they are generally applied using
-a randomly selected training set classified in advance. In many settings, we also have the
-option ofusing pool-based active learning. Instead ofusing a randomly selected training
-set, the learner has access to a pool ofunlabeled instances and can request the labels for
-some number of them. We introduce a new algorithm for performing active learning with
-support vector machines, i.e., an algorithm for choosing which instances to request next.
-We provide a theoretical motivation for the algorithm using the notion of a version space.
-We present experimental results showing that employing our active learning method can
-significantly reduce the need for labeled training instances in both the standard inductive
-and transductive settings.*
+Code files are in 
 
-[Personality Classification Based on Twitter Text
-Using Naive Bayes, KNN and SVM] (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7436992):
+### Run the code locally 
 
-*Abstract—Personality is a fundamental basis of human
-behavior. Personality affects the interaction and preferences of an
-individual. People are required to take a personality test to find
-out their personality. Social media is a place where users express
-themselves to the world. Posts made by users of social media can
-be analyzed to obtain their personal information. This experiment
-uses text classification to predict personality based on text written
-by Twitter users. The languages used are English and Indonesian.
-Classification methods implemented are Naive Bayes, K-Nearest
-Neighbors and Support Vector Machine. Testing results showed
-Naive Bayes slightly outperformed the other methods.*
+Open the file Classifying-character-sentences-from-the-Simpsons.ipynb in jupyter notebook environment. Go to Kernel in the drop down menu, and press Restart and run all.
+
+Running all the code should take from 3 - 7 hours on most computers.
