@@ -10,7 +10,11 @@
 The goal of the project was to apply theoretic knowledge about supervised
 learning algorithms and the workflow of solving a supervised learning problem
 in practice. Using a realistic dataset and design a process of preprocessing the data,
-selecting a model and its hyperparameters and impliment a program that automates the process.
+selecting a model and its hyperparameters and impliment a program that automates the process.  
+
+## Research report
+
+The overview of the research and the results can be found in the [Research report](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/Report.pdf)
 
 ## The Dataset
 
@@ -24,11 +28,16 @@ Datafiles:
   * [simpsons_locations.csv](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/simpsons_locations.csv)
   * [simpsons_script_lines.csv](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/simpsons_script_lines.csv)
  
-### Code files
+## Code files
 
-Code files are in 
+The project is developed with Jupyter Notebooks and Python.   
+  
+The main notebook file is [Classifying-character-sentences-from-the-Simpsons.ipynb](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/Classifying-character-sentences-from-the-Simpsons.ipynb)
+in that file we preprocess the data and do the Model selection and search for hyperparameters.  
 
-### Run the code locally 
+The second code file is [Best_params_work.ipyn](https://github.com/bensi94/Classifying-character-sentences-from-the-Simpsons/blob/master/Best%20params%20work.ipynb) but in that file we have already used the selection of Models and hyperparamters from the the main file.
+
+## Run the code locally 
 
 Open the file Classifying-character-sentences-from-the-Simpsons.ipynb in jupyter notebook environment. Go to Kernel in the drop down menu, and press Restart and run all.
 
