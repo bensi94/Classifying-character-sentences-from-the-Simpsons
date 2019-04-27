@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[1]:
 
 
@@ -109,10 +106,6 @@ simpsons_df.head()
 
 # In[9]:
 
-
-# GOTT FYRIR SKÝRSLU: NOTUM TfidfVectorizer útaf því það er nákvæmara en CountVectorizer
-# CountVectorizer telur bara frequncy á orðunum en TfidfVectorizer gerir mun á hversu frequent orð eru
-# Nánara info hér: https://www.quora.com/What-is-the-difference-between-TfidfVectorizer-and-CountVectorizer-1
 
 # Min_df is the minimum amount of toke frequency to be kept
 # stop_words is to skip words like 'a, the' etc.
