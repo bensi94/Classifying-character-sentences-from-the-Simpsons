@@ -7,7 +7,7 @@
 
 ## About the project 
 
-The goal of the project was to apply theoretic knowledge about supervised
+The goal of the project was to apply theoreticical knowledge about supervised
 learning algorithms and the workflow of solving a supervised learning problem
 in practice. Using a realistic dataset and design a process of preprocessing the data,
 selecting a model and its hyperparameters and impliment a program that automates the process.  
